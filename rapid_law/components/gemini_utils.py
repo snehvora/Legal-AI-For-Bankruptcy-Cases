@@ -24,28 +24,14 @@ def gemini_text_generation(
     query : str,
     model_name : str = "gemini-1.5-flash",
     temperature : float = 0.0,
-    stream : bool = False
 ):
-    if stream:
-        model = genai.GenerativeModel(model_name)
-        response = model.generate_content(
-            query,
-            generation_config=genai.types.GenerationConfig(
-                temperature=temperature,
-            ),
-            stream=True
+    model = genai.GenerativeModel(model_name)
+    response = model.generate_content(
+        query,
+        generation_config=genai.types.GenerationConfig(
+            temperature=temperature,
         )
-
-        return response
-    
-    else:
-        model = genai.GenerativeModel(model_name)
-        response = model.generate_content(
-            query,
-            generation_config=genai.types.GenerationConfig(
-                temperature=temperature,
-            )
-        )
+    )
 
         return response.text
 
