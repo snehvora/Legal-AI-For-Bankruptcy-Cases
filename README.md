@@ -10,6 +10,39 @@
     <h1>Legal AI for Bankruptcy Cases 🏛️🤖</h1>
 </header>
 
+## Installation
+
+1. **Clone the Repository**
+
+   ```sh
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
+
+### Prerequisites
+
+This project uses Poetry for dependency management. Follow the steps below to set up the project.
+
+Ensure you have Poetry installed. If not, you can install it using the following command:
+
+```sh
+pip3 install poetry
+```
+Then, install the dependencies:
+
+```sh
+poetry install
+```
+Then, Run the environment:
+
+```sh
+poetry shell
+```
+**Run the Streamlit App**
+   
+```sh
+streamlit run ui/app.py
+```
 <section>
     <h2>Overview 📜</h2>
     <p>
