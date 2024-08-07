@@ -73,7 +73,7 @@
 
 <section>
     <h2>License 📜</h2>
-    <p>The project is licensed under the <a href="LICENSE">MIT License</a>. See the LICENSE file for more details.</p>
+    <p>The project is licensed under the <a href="https://github.com/snehvora/Legal-AI-For-Bankruptcy-Cases/blob/main/LICENSE">MIT License</a>. See the LICENSE file for more details.</p>
 </section>
 
 <section>
